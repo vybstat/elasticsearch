@@ -41,6 +41,7 @@
     }
   },
   "mappings" : {
+    /*
     "group" : {
       "_source" : {
         "enabled" : true
@@ -68,8 +69,8 @@
         "members" : { "type" : "text" },
         "location_group" : { "type" : "text" }
       }
-    }
-    /*
+    }*/
+    
     "event" : {
       "_source" : {
         "enabled" : true
@@ -101,6 +102,6 @@
           }
         }
       }
-    }*/
+    }
   }
 }
